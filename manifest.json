@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Hacker News Dracula Theme",
+  "version": "1.0",
+  "description": "Applies the Dracula dark theme to Hacker News.",
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "css": ["style.css"]
+    }
+  ]
+}

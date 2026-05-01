@@ -1,0 +1,89 @@
+/* Hacker News Dracula Theme - Extension Version */
+
+body, #hnmain {
+    background-color: #282a36 !important;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td {
+    background-color: #282a36 !important;
+}
+
+/* Added background color for the header table */
+#hnmain > tbody > tr:nth-child(1) > td > table {
+    background-color: #444458 !important;
+}
+
+#hnmain > tbody > tr:nth-child(2) > td {
+    background-color: #44475a !important;
+}
+
+/* Links */
+a:link, a:visited {
+    color: #bd93f9 !important;
+}
+
+.comment a:link {
+    color: #bd93f9 !important;
+}
+
+.hnmore a:link, .hnmore a:visited {
+    color: #6272a4 !important;
+}
+
+/* Specifically target the site name/logo area */
+#hnmain > tbody > tr:nth-child(1) td table tr td span b a,
+#hnmain > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > span > b > a {
+    color: #50fa7b !important;
+}
+
+/* Subtext and headers */
+.comhead a:link, .subtext a:visited, .subtext, .comhead {
+    color: #8be9fd !important;
+}
+
+.score, #karma {
+    color: #ffb86c !important;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(3) > span {
+    color: #ffb86c !important;
+}
+
+/* Forms and Search */
+#hnmain > tbody > tr:nth-child(4) > td > center:nth-child(6) > form > input[type=text] {
+    background-color: #44475a !important;
+}
+
+#hnmain > tbody > tr:nth-child(4) > td > center:nth-child(6) > form {
+    color: #50fa7b !important;
+}
+
+.pagetop, .pagetop a:link, .pagetop a:visited {
+    color: #bd93f9 !important;
+}
+
+.title, .title a {
+    color: #f8f8f2 !important; /* Made title white/light for better readability */
+}
+
+.titleline a {
+    color: rgb(189, 147, 249) !important;
+}
+
+.sitestr {
+    color: #6272a4 !important;
+}
+
+.commtext {
+    color: #f8f8f2 !important;
+}
+
+textarea, input {
+    background-color: #282a36 !important;
+    color: #f8f8f2 !important;
+    border: 1px solid #8be9fd !important;
+}
+
+#hnmain .hnuser, #hnmain .age a {
+    color: #828282 !important;
+}
