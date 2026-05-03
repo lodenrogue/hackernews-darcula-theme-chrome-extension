@@ -18,7 +18,7 @@ body, #hnmain {
 }
 
 /* Links */
-a:link, a:visited {
+a:link {
     color: #bd93f9 !important;
 }
 
@@ -64,6 +64,10 @@ a:link, a:visited {
 
 .title, .title a {
     color: #f8f8f2 !important; /* Made title white/light for better readability */
+}
+
+.title a:visited, .titleline a:visited {
+    color: #6272a4 !important;
 }
 
 .titleline a {
